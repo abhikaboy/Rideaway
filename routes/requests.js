@@ -44,9 +44,6 @@ const getIncommingRequests = async (id) => {
 		console.log(filtered);
 		return filtered;
 	});
-	// console.log(aggregated.toArray());
-	// return aggregated.toArray();
-	// .filter((request) => request.isRequested && request.isNotAccepted);
 };
 /**
  *
@@ -125,7 +122,7 @@ requestsRoute.route("/requests").get(async function (req, res) {
 // Creates a user request based off a user ID
 requestsRoute.route("/requests/create").post(async (req, res) => {
 	const dbConnect = dbo.getDb();
-	const { id, requesting, destination, arrivalTime, comment } = req.query;
+	const { id, requesting, destination, comment } = req.query;
 	if (typeof id == "undefined") {
 		res.status(400).send("No user given");
 	}
@@ -143,7 +140,6 @@ requestsRoute.route("/requests/create").post(async (req, res) => {
 			createdAt: new Date(),
 			accepted: false,
 			acceptor: "",
-			arrivalTime: new Date(),
 		})
 		.then((response) => {
 			res.status(200).send("yuh");

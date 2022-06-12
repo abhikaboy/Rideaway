@@ -39,56 +39,54 @@ userRoutes.route("/users").get(async function (req, res) {
 
 userRoutes.route("/users/login").post(async (req, res) => {
 	const dbConnect = dbo.getDb();
-	const { id, password } = req.query;
-	console.log(id);
-	console.log(typeof id);
-	if (typeof id == "undefined") {
-		res.status(400).send("No user given");
+	const { code, number } = req.query;
+	console.log(code);
+	if (typeof code == "undefined") {
+		res.status(400).send("No code given");
 	}
-	const user = await getUserById(id);
-	if (user == null) res.status(400).send("No user found");
-	if (user.password == password)
-		res.status(200).send("User Logged In Will send JWT later lol");
-	else {
-		res.status(400).send("invalid password");
+	const codes = await dbConnect
+		.collection("codes")
+		.countDocuments({ code: code });
+	console.log(codes);
+	if (codes > 0) {
+		await dbConnect.collection("codes").deleteOne({ code: code });
+		const userId = ObjectID();
+		await dbConnect.collection("users").insertOne({
+			_id: userId,
+			incommingRQ: true,
+			number: number,
+		});
+		res.status(200).send(userId);
+	} else {
+		res.status(400).send("invalid code");
 	}
 });
 userRoutes.route("/users/create").post(async (req, res) => {
 	const dbConnect = dbo.getDb();
-	const { number, password } = req.query;
+	const { number } = req.query;
 	if (number.length != 10) {
 		res.status(400).send("Please enter a valid phone number");
 	}
-	dbConnect
-		.collection("users")
-		.insertOne({
-			_id: ObjectID(),
-			password: password,
-			number: number,
-			incomingRQ: true,
-			notifications: false,
+	const accountSid = process.env.TWILIO_ACCOUNT_SID;
+	const authToken = process.env.TWILIO_AUTH_TOKEN;
+	const client = require("twilio")(accountSid, authToken);
+	const code =
+		Math.random().toString(36).substring(2, 5) +
+		Math.random().toString(36).substring(2, 5);
+	const userID = ObjectID();
+	client.messages
+		.create({
+			body: code,
+			from: "+16096046893",
+			to: `+1${number}`,
 		})
 		.then((response) => {
-			res.status(200).send("sucessfully created user :P");
+			res.status(200).send("code sent");
 		});
+	await dbConnect.collection("codes").insertOne({
+		code: code,
+		user: userID,
+	});
 });
-
-// This section will help you delete a record.
-// recordRoutes.route("/listings/delete/:id").delete((req, res) => {
-// 	const dbConnect = dbo.getDb();
-// 	const listingQuery = { listing_id: req.body.id };
-
-// 	dbConnect
-// 		.collection("listingsAndReviews")
-// 		.deleteOne(listingQuery, function (err, _result) {
-// 			if (err) {
-// 				res.status(400).send(
-// 					`Error deleting listing with id ${listingQuery.listing_id}!`,
-// 				);
-// 			} else {
-// 				console.log("1 document deleted");
-// 			}
-// 		});
-// });
 
 module.exports = userRoutes;

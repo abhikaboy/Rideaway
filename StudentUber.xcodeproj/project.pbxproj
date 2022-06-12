@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5676F7632856921B0043DAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7622856921B0043DAC7 /* AppDelegate.swift */; };
+		5676F7652856921B0043DAC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7642856921B0043DAC7 /* SceneDelegate.swift */; };
+		5676F7672856921B0043DAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7662856921B0043DAC7 /* ViewController.swift */; };
+		5676F76A2856921B0043DAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676F7682856921B0043DAC7 /* Main.storyboard */; };
+		5676F76D2856921B0043DAC7 /* StudentUber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5676F76B2856921B0043DAC7 /* StudentUber.xcdatamodeld */; };
+		5676F76F2856921B0043DAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5676F76E2856921B0043DAC7 /* Assets.xcassets */; };
+		5676F7722856921B0043DAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676F7702856921B0043DAC7 /* LaunchScreen.storyboard */; };
+		5676F77D2856921B0043DAC7 /* StudentUberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F77C2856921B0043DAC7 /* StudentUberTests.swift */; };
+		5676F7872856921B0043DAC7 /* StudentUberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7862856921B0043DAC7 /* StudentUberUITests.swift */; };
+		5676F7892856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7882856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5676F7792856921B0043DAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5676F7572856921B0043DAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5676F75E2856921B0043DAC7;
+			remoteInfo = StudentUber;
+		};
+		5676F7832856921B0043DAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5676F7572856921B0043DAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5676F75E2856921B0043DAC7;
+			remoteInfo = StudentUber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5676F75F2856921B0043DAC7 /* StudentUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5676F7622856921B0043DAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5676F7642856921B0043DAC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5676F7662856921B0043DAC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5676F7692856921B0043DAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5676F76C2856921B0043DAC7 /* StudentUber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentUber.xcdatamodel; sourceTree = "<group>"; };
+		5676F76E2856921B0043DAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5676F7712856921B0043DAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5676F7732856921B0043DAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5676F7782856921B0043DAC7 /* StudentUberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentUberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5676F77C2856921B0043DAC7 /* StudentUberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUberTests.swift; sourceTree = "<group>"; };
+		5676F7822856921B0043DAC7 /* StudentUberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentUberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5676F7862856921B0043DAC7 /* StudentUberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUberUITests.swift; sourceTree = "<group>"; };
+		5676F7882856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5676F75C2856921B0043DAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676F7752856921B0043DAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676F77F2856921B0043DAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5676F7562856921B0043DAC7 = {
+			isa = PBXGroup;
+			children = (
+				5676F7612856921B0043DAC7 /* StudentUber */,
+				5676F77B2856921B0043DAC7 /* StudentUberTests */,
+				5676F7852856921B0043DAC7 /* StudentUberUITests */,
+				5676F7602856921B0043DAC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5676F7602856921B0043DAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5676F75F2856921B0043DAC7 /* StudentUber.app */,
+				5676F7782856921B0043DAC7 /* StudentUberTests.xctest */,
+				5676F7822856921B0043DAC7 /* StudentUberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5676F7612856921B0043DAC7 /* StudentUber */ = {
+			isa = PBXGroup;
+			children = (
+				5676F7622856921B0043DAC7 /* AppDelegate.swift */,
+				5676F7642856921B0043DAC7 /* SceneDelegate.swift */,
+				5676F7662856921B0043DAC7 /* ViewController.swift */,
+				5676F7682856921B0043DAC7 /* Main.storyboard */,
+				5676F76E2856921B0043DAC7 /* Assets.xcassets */,
+				5676F7702856921B0043DAC7 /* LaunchScreen.storyboard */,
+				5676F7732856921B0043DAC7 /* Info.plist */,
+				5676F76B2856921B0043DAC7 /* StudentUber.xcdatamodeld */,
+			);
+			path = StudentUber;
+			sourceTree = "<group>";
+		};
+		5676F77B2856921B0043DAC7 /* StudentUberTests */ = {
+			isa = PBXGroup;
+			children = (
+				5676F77C2856921B0043DAC7 /* StudentUberTests.swift */,
+			);
+			path = StudentUberTests;
+			sourceTree = "<group>";
+		};
+		5676F7852856921B0043DAC7 /* StudentUberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5676F7862856921B0043DAC7 /* StudentUberUITests.swift */,
+				5676F7882856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift */,
+			);
+			path = StudentUberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5676F75E2856921B0043DAC7 /* StudentUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5676F78C2856921B0043DAC7 /* Build configuration list for PBXNativeTarget "StudentUber" */;
+			buildPhases = (
+				5676F75B2856921B0043DAC7 /* Sources */,
+				5676F75C2856921B0043DAC7 /* Frameworks */,
+				5676F75D2856921B0043DAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentUber;
+			productName = StudentUber;
+			productReference = 5676F75F2856921B0043DAC7 /* StudentUber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5676F7772856921B0043DAC7 /* StudentUberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5676F78F2856921B0043DAC7 /* Build configuration list for PBXNativeTarget "StudentUberTests" */;
+			buildPhases = (
+				5676F7742856921B0043DAC7 /* Sources */,
+				5676F7752856921B0043DAC7 /* Frameworks */,
+				5676F7762856921B0043DAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5676F77A2856921B0043DAC7 /* PBXTargetDependency */,
+			);
+			name = StudentUberTests;
+			productName = StudentUberTests;
+			productReference = 5676F7782856921B0043DAC7 /* StudentUberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5676F7812856921B0043DAC7 /* StudentUberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5676F7922856921B0043DAC7 /* Build configuration list for PBXNativeTarget "StudentUberUITests" */;
+			buildPhases = (
+				5676F77E2856921B0043DAC7 /* Sources */,
+				5676F77F2856921B0043DAC7 /* Frameworks */,
+				5676F7802856921B0043DAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5676F7842856921B0043DAC7 /* PBXTargetDependency */,
+			);
+			name = StudentUberUITests;
+			productName = StudentUberUITests;
+			productReference = 5676F7822856921B0043DAC7 /* StudentUberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5676F7572856921B0043DAC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5676F75E2856921B0043DAC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5676F7772856921B0043DAC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5676F75E2856921B0043DAC7;
+					};
+					5676F7812856921B0043DAC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5676F75E2856921B0043DAC7;
+					};
+				};
+			};
+			buildConfigurationList = 5676F75A2856921B0043DAC7 /* Build configuration list for PBXProject "StudentUber" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5676F7562856921B0043DAC7;
+			productRefGroup = 5676F7602856921B0043DAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5676F75E2856921B0043DAC7 /* StudentUber */,
+				5676F7772856921B0043DAC7 /* StudentUberTests */,
+				5676F7812856921B0043DAC7 /* StudentUberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5676F75D2856921B0043DAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676F7722856921B0043DAC7 /* LaunchScreen.storyboard in Resources */,
+				5676F76F2856921B0043DAC7 /* Assets.xcassets in Resources */,
+				5676F76A2856921B0043DAC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676F7762856921B0043DAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676F7802856921B0043DAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5676F75B2856921B0043DAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676F7672856921B0043DAC7 /* ViewController.swift in Sources */,
+				5676F76D2856921B0043DAC7 /* StudentUber.xcdatamodeld in Sources */,
+				5676F7632856921B0043DAC7 /* AppDelegate.swift in Sources */,
+				5676F7652856921B0043DAC7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676F7742856921B0043DAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676F77D2856921B0043DAC7 /* StudentUberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5676F77E2856921B0043DAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5676F7892856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift in Sources */,
+				5676F7872856921B0043DAC7 /* StudentUberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5676F77A2856921B0043DAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5676F75E2856921B0043DAC7 /* StudentUber */;
+			targetProxy = 5676F7792856921B0043DAC7 /* PBXContainerItemProxy */;
+		};
+		5676F7842856921B0043DAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5676F75E2856921B0043DAC7 /* StudentUber */;
+			targetProxy = 5676F7832856921B0043DAC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5676F7682856921B0043DAC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5676F7692856921B0043DAC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5676F7702856921B0043DAC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5676F7712856921B0043DAC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5676F78A2856921B0043DAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5676F78B2856921B0043DAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5676F78D2856921B0043DAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudentUber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiraagnadig.StudentUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5676F78E2856921B0043DAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudentUber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiraagnadig.StudentUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5676F7902856921B0043DAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiraagnadig.StudentUberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentUber.app/StudentUber";
+			};
+			name = Debug;
+		};
+		5676F7912856921B0043DAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiraagnadig.StudentUberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentUber.app/StudentUber";
+			};
+			name = Release;
+		};
+		5676F7932856921B0043DAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiraagnadig.StudentUberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentUber;
+			};
+			name = Debug;
+		};
+		5676F7942856921B0043DAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiraagnadig.StudentUberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudentUber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5676F75A2856921B0043DAC7 /* Build configuration list for PBXProject "StudentUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676F78A2856921B0043DAC7 /* Debug */,
+				5676F78B2856921B0043DAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5676F78C2856921B0043DAC7 /* Build configuration list for PBXNativeTarget "StudentUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676F78D2856921B0043DAC7 /* Debug */,
+				5676F78E2856921B0043DAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5676F78F2856921B0043DAC7 /* Build configuration list for PBXNativeTarget "StudentUberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676F7902856921B0043DAC7 /* Debug */,
+				5676F7912856921B0043DAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5676F7922856921B0043DAC7 /* Build configuration list for PBXNativeTarget "StudentUberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5676F7932856921B0043DAC7 /* Debug */,
+				5676F7942856921B0043DAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5676F76B2856921B0043DAC7 /* StudentUber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5676F76C2856921B0043DAC7 /* StudentUber.xcdatamodel */,
+			);
+			currentVersion = 5676F76C2856921B0043DAC7 /* StudentUber.xcdatamodel */;
+			path = StudentUber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5676F7572856921B0043DAC7 /* Project object */;
+}

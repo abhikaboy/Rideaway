@@ -10,13 +10,23 @@
 		5676F7632856921B0043DAC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7622856921B0043DAC7 /* AppDelegate.swift */; };
 		5676F7652856921B0043DAC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7642856921B0043DAC7 /* SceneDelegate.swift */; };
 		5676F7672856921B0043DAC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7662856921B0043DAC7 /* ViewController.swift */; };
-		5676F76A2856921B0043DAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676F7682856921B0043DAC7 /* Main.storyboard */; };
 		5676F76D2856921B0043DAC7 /* StudentUber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5676F76B2856921B0043DAC7 /* StudentUber.xcdatamodeld */; };
 		5676F76F2856921B0043DAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5676F76E2856921B0043DAC7 /* Assets.xcassets */; };
 		5676F7722856921B0043DAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676F7702856921B0043DAC7 /* LaunchScreen.storyboard */; };
 		5676F77D2856921B0043DAC7 /* StudentUberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F77C2856921B0043DAC7 /* StudentUberTests.swift */; };
 		5676F7872856921B0043DAC7 /* StudentUberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7862856921B0043DAC7 /* StudentUberUITests.swift */; };
 		5676F7892856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7882856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift */; };
+		5676F796285692340043DAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5676F795285692340043DAC7 /* Main.storyboard */; };
+		5676F798285692860043DAC7 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 5676F797285692860043DAC7 /* car.png */; };
+		5676F79A285692960043DAC7 /* image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5676F799285692960043DAC7 /* image_5.png */; };
+		5676F79C285692C30043DAC7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F79B285692C30043DAC7 /* HomeViewController.swift */; };
+		5676F79E285692D40043DAC7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F79D285692D40043DAC7 /* SettingsViewController.swift */; };
+		5676F7A0285692DF0043DAC7 /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F79F285692DF0043DAC7 /* RequestsCell.swift */; };
+		5676F7A2285692EA0043DAC7 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7A1285692E90043DAC7 /* RequestViewController.swift */; };
+		5676F7A42856942B0043DAC7 /* image_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5676F7A32856942B0043DAC7 /* image_8.png */; };
+		5676F7A6285694320043DAC7 /* image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5676F7A5285694320043DAC7 /* image_4.png */; };
+		5676F7A82856BD590043DAC7 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7A72856BD590043DAC7 /* WeatherManager.swift */; };
+		5676F7AA2856C6700043DAC7 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676F7A92856C6700043DAC7 /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +51,6 @@
 		5676F7622856921B0043DAC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5676F7642856921B0043DAC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5676F7662856921B0043DAC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5676F7692856921B0043DAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5676F76C2856921B0043DAC7 /* StudentUber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentUber.xcdatamodel; sourceTree = "<group>"; };
 		5676F76E2856921B0043DAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5676F7712856921B0043DAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		5676F7822856921B0043DAC7 /* StudentUberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentUberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5676F7862856921B0043DAC7 /* StudentUberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUberUITests.swift; sourceTree = "<group>"; };
 		5676F7882856921B0043DAC7 /* StudentUberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5676F795285692340043DAC7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5676F797285692860043DAC7 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		5676F799285692960043DAC7 /* image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_5.png; sourceTree = "<group>"; };
+		5676F79B285692C30043DAC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5676F79D285692D40043DAC7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5676F79F285692DF0043DAC7 /* RequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
+		5676F7A1285692E90043DAC7 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		5676F7A32856942B0043DAC7 /* image_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_8.png; sourceTree = "<group>"; };
+		5676F7A5285694320043DAC7 /* image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_4.png; sourceTree = "<group>"; };
+		5676F7A72856BD590043DAC7 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		5676F7A92856C6700043DAC7 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +124,17 @@
 				5676F7622856921B0043DAC7 /* AppDelegate.swift */,
 				5676F7642856921B0043DAC7 /* SceneDelegate.swift */,
 				5676F7662856921B0043DAC7 /* ViewController.swift */,
-				5676F7682856921B0043DAC7 /* Main.storyboard */,
+				5676F795285692340043DAC7 /* Main.storyboard */,
+				5676F79F285692DF0043DAC7 /* RequestsCell.swift */,
+				5676F7A1285692E90043DAC7 /* RequestViewController.swift */,
+				5676F79B285692C30043DAC7 /* HomeViewController.swift */,
+				5676F7A72856BD590043DAC7 /* WeatherManager.swift */,
+				5676F7A92856C6700043DAC7 /* APIRequest.swift */,
+				5676F79D285692D40043DAC7 /* SettingsViewController.swift */,
+				5676F799285692960043DAC7 /* image_5.png */,
+				5676F7A32856942B0043DAC7 /* image_8.png */,
+				5676F7A5285694320043DAC7 /* image_4.png */,
+				5676F797285692860043DAC7 /* car.png */,
 				5676F76E2856921B0043DAC7 /* Assets.xcassets */,
 				5676F7702856921B0043DAC7 /* LaunchScreen.storyboard */,
 				5676F7732856921B0043DAC7 /* Info.plist */,
@@ -234,9 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5676F798285692860043DAC7 /* car.png in Resources */,
+				5676F7A6285694320043DAC7 /* image_4.png in Resources */,
+				5676F79A285692960043DAC7 /* image_5.png in Resources */,
+				5676F7A42856942B0043DAC7 /* image_8.png in Resources */,
 				5676F7722856921B0043DAC7 /* LaunchScreen.storyboard in Resources */,
 				5676F76F2856921B0043DAC7 /* Assets.xcassets in Resources */,
-				5676F76A2856921B0043DAC7 /* Main.storyboard in Resources */,
+				5676F796285692340043DAC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5676F79C285692C30043DAC7 /* HomeViewController.swift in Sources */,
+				5676F7A0285692DF0043DAC7 /* RequestsCell.swift in Sources */,
 				5676F7672856921B0043DAC7 /* ViewController.swift in Sources */,
 				5676F76D2856921B0043DAC7 /* StudentUber.xcdatamodeld in Sources */,
 				5676F7632856921B0043DAC7 /* AppDelegate.swift in Sources */,
 				5676F7652856921B0043DAC7 /* SceneDelegate.swift in Sources */,
+				5676F7A82856BD590043DAC7 /* WeatherManager.swift in Sources */,
+				5676F7A2285692EA0043DAC7 /* RequestViewController.swift in Sources */,
+				5676F7AA2856C6700043DAC7 /* APIRequest.swift in Sources */,
+				5676F79E285692D40043DAC7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5676F7682856921B0043DAC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5676F7692856921B0043DAC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5676F7702856921B0043DAC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KYB55FLF5R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudentUber/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KYB55FLF5R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudentUber/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
